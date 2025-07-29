@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package inference;
+
+option go_package = "grpc-llm-service/proto;proto";
+
+message InferenceRequest {
+  string prompt = 1;
+}
+
+message InferenceResponse {
+  string response = 1;
+}
+
+service InferenceService {
+  rpc Inference(InferenceRequest) returns (InferenceResponse);
+} 

@@ -1,0 +1,58 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+llm_client.exe
+# Go
+*.exe
+*.test
+*.out
+*.pb.go
+*.pb.gw.go
+
+
+# Docker
+*.tar
+*.pid
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+.eggs/
+.cache/
+.mypy_cache/
+__pycache__/
+
+# Compiled shared objects
+*.so
+
+# Binaries
+*.bin
+*.dll
+*.dylib
+*.a
+*.o
+
+# Node (if applicable)
+node_modules/
+
+# Coverage/test
+.coverage
+htmlcov/
+nosetests.xml
+test-output/
+pytest_cache/

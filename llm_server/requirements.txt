@@ -1,0 +1,6 @@
+google-generativeai
+grpcio
+grpcio-tools
+protobuf
+kafka-python
+python-dotenv
